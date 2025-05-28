@@ -59,6 +59,9 @@ public class ValsGemstones {
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.SAPPHIRE_BLOCK);
         }
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.SAPPHIRE_ORE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
