@@ -1,7 +1,6 @@
 package net.valerieusknight.valsgemstones.item;
 
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -15,6 +14,14 @@ public class ModItems {
     public static final DeferredItem<PickaxeItem> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe",() -> new PickaxeItem(ModToolTiers.SAPPHIRE, new Item.Properties()
             .attributes(PickaxeItem.createAttributes(ModToolTiers.SAPPHIRE, 1, -2.8f))
     ));
+    public static final DeferredItem<SwordItem> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",() -> new SwordItem(ModToolTiers.SAPPHIRE, new Item.Properties()
+            .attributes(PickaxeItem.createAttributes(ModToolTiers.SAPPHIRE, 3, -2.4f))));
+    public static final DeferredItem<ShovelItem> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel",() -> new ShovelItem(ModToolTiers.SAPPHIRE, new Item.Properties()
+            .attributes(PickaxeItem.createAttributes(ModToolTiers.SAPPHIRE, 1, -2.8f))));
+    public static final DeferredItem<AxeItem> SAPPHIRE_AXE = ITEMS.register("sapphire_axe",() -> new AxeItem(ModToolTiers.SAPPHIRE, new Item.Properties()
+            .attributes(PickaxeItem.createAttributes(ModToolTiers.SAPPHIRE, 5, -3f))));
+    public static final DeferredItem<HoeItem> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe",() -> new HoeItem(ModToolTiers.SAPPHIRE, new Item.Properties()
+            .attributes(PickaxeItem.createAttributes(ModToolTiers.SAPPHIRE, 0, -2.8f))));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

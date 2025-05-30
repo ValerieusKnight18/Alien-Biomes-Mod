@@ -19,6 +19,10 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         basicItem(ModItems.SAPPHIRE.get());
         handheldItem(ModItems.SAPPHIRE_PICKAXE.get());
+        handheldItem(ModItems.SAPPHIRE_SWORD.get());
+        handheldItem(ModItems.SAPPHIRE_SHOVEL.get());
+        handheldItem(ModItems.SAPPHIRE_AXE.get());
+        handheldItem(ModItems.SAPPHIRE_HOE.get());
     }
 
     private ItemModelBuilder handheldItem(DeferredItem<?> item) {

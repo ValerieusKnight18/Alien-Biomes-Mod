@@ -23,5 +23,13 @@ public class ModItemTagProvider extends ItemTagsProvider {
         //tag(ModTags.Items.TRANSFORMABLE_ITEMS);
         tag(ItemTags.PICKAXES)
                 .add(ModItems.SAPPHIRE_PICKAXE.get());
+        tag(ItemTags.SWORDS)
+                .add(ModItems.SAPPHIRE_SWORD.get());
+        tag(ItemTags.SHOVELS)
+                .add(ModItems.SAPPHIRE_SHOVEL.get());
+        tag(ItemTags.AXES)
+                .add(ModItems.SAPPHIRE_AXE.get());
+        tag(ItemTags.HOES)
+                .add(ModItems.SAPPHIRE_HOE.get());
     }
 }
