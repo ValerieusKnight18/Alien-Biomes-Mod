@@ -5,9 +5,11 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 import net.valerieusknight.valsgemstones.block.ModBlocks;
 import net.valerieusknight.valsgemstones.item.ModItems;
+import net.valerieusknight.valsgemstones.util.ModTags;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -60,6 +62,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern(" T ")
                 .define('S', ModItems.SAPPHIRE.get())
                 .define('T', Items.STICK.asItem())
+                .unlockedBy("has_sapphire", has(ModItems.SAPPHIRE)).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_GLASS.get(), 8)
+                .pattern("GGG")
+                .pattern("GSG")
+                .pattern("GGG")
+                .define('S', ModItems.SAPPHIRE.get())
+                .define('G', Blocks.GLASS.asItem())
                 .unlockedBy("has_sapphire", has(ModItems.SAPPHIRE)).save(recipeOutput);
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 9)
                 .requires(ModBlocks.SAPPHIRE_BLOCK)

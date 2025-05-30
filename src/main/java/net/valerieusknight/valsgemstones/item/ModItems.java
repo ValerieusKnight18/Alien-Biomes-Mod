@@ -12,8 +12,7 @@ public class ModItems {
     //create the sapphire item
     public static final DeferredItem<Item> SAPPHIRE = ITEMS.register("sapphire",() -> new Item(new Item.Properties()));
     public static final DeferredItem<PickaxeItem> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe",() -> new PickaxeItem(ModToolTiers.SAPPHIRE, new Item.Properties()
-            .attributes(PickaxeItem.createAttributes(ModToolTiers.SAPPHIRE, 1, -2.8f))
-    ));
+            .attributes(PickaxeItem.createAttributes(ModToolTiers.SAPPHIRE, 1, -2.8f))));
     public static final DeferredItem<SwordItem> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",() -> new SwordItem(ModToolTiers.SAPPHIRE, new Item.Properties()
             .attributes(PickaxeItem.createAttributes(ModToolTiers.SAPPHIRE, 3, -2.4f))));
     public static final DeferredItem<ShovelItem> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel",() -> new ShovelItem(ModToolTiers.SAPPHIRE, new Item.Properties()

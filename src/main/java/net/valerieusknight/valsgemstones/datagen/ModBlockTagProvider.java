@@ -21,7 +21,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider provider) {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.SAPPHIRE_BLOCK.get())
-                .add(ModBlocks.SAPPHIRE_ORE.get());
+                .add(ModBlocks.SAPPHIRE_ORE.get())
+                .add(ModBlocks.SAPPHIRE_GLASS.get());
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.SAPPHIRE_BLOCK.get())
                 .add(ModBlocks.SAPPHIRE_ORE.get());

@@ -28,6 +28,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     @Override
     protected void generate() {
         dropSelf(ModBlocks.SAPPHIRE_BLOCK.get());
+        dropSelf(ModBlocks.SAPPHIRE_GLASS.get());
 
         add(ModBlocks.SAPPHIRE_ORE.get(), block -> createOreDrop(ModBlocks.SAPPHIRE_ORE.get(), ModItems.SAPPHIRE.get()));
     }
