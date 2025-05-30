@@ -3,6 +3,7 @@ package net.valerieusknight.valsgemstones.datagen;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 import net.valerieusknight.valsgemstones.block.ModBlocks;
@@ -25,11 +26,45 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("SSS")
                 .define('S', ModItems.SAPPHIRE.get())
                 .unlockedBy("has_sapphire", has(ModItems.SAPPHIRE)).save(recipeOutput);
-
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SAPPHIRE_PICKAXE.get())
+                .pattern("SSS")
+                .pattern(" T ")
+                .pattern(" T ")
+                .define('S', ModItems.SAPPHIRE.get())
+                .define('T', Items.STICK.asItem())
+                .unlockedBy("has_sapphire", has(ModItems.SAPPHIRE)).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SAPPHIRE_SWORD.get())
+                .pattern(" S ")
+                .pattern(" S ")
+                .pattern(" T ")
+                .define('S', ModItems.SAPPHIRE.get())
+                .define('T', Items.STICK.asItem())
+                .unlockedBy("has_sapphire", has(ModItems.SAPPHIRE)).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SAPPHIRE_SHOVEL.get())
+                .pattern(" S ")
+                .pattern(" T ")
+                .pattern(" T ")
+                .define('S', ModItems.SAPPHIRE.get())
+                .define('T', Items.STICK.asItem())
+                .unlockedBy("has_sapphire", has(ModItems.SAPPHIRE)).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SAPPHIRE_AXE.get())
+                .pattern("SS ")
+                .pattern("ST ")
+                .pattern(" T ")
+                .define('S', ModItems.SAPPHIRE.get())
+                .define('T', Items.STICK.asItem())
+                .unlockedBy("has_sapphire", has(ModItems.SAPPHIRE)).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SAPPHIRE_HOE.get())
+                .pattern("SS ")
+                .pattern(" T ")
+                .pattern(" T ")
+                .define('S', ModItems.SAPPHIRE.get())
+                .define('T', Items.STICK.asItem())
+                .unlockedBy("has_sapphire", has(ModItems.SAPPHIRE)).save(recipeOutput);
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 9)
                 .requires(ModBlocks.SAPPHIRE_BLOCK)
                 .unlockedBy("has_sapphire_block", has(ModBlocks.SAPPHIRE_BLOCK)).save(recipeOutput);
-                //recipe names default to the output of the recipe, i.e. "sapphire.json
+                //recipe names default to the output of the recipe, i.e. "sapphire.json"
                 //if multiple recipes output the same item, this can cause errors
                 //to fix this, use the following instead of .save(recipeOutput)
                 //.save(recipeOutput, "modname:custom_recipe_name)";
