@@ -3,6 +3,7 @@ package net.valerieusknight.valsgemstones.datagen;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 import net.valerieusknight.valsgemstones.block.ModBlocks;
@@ -24,6 +25,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("SSS")
                 .pattern("SSS")
                 .define('S', ModItems.SAPPHIRE.get())
+                .unlockedBy("has_sapphire", has(ModItems.SAPPHIRE)).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SAPPHIRE_PICKAXE.get())
+                .pattern("SSS")
+                .pattern(" T ")
+                .pattern(" T ")
+                .define('S', ModItems.SAPPHIRE.get())
+                .define('T', Items.STICK.asItem())
                 .unlockedBy("has_sapphire", has(ModItems.SAPPHIRE)).save(recipeOutput);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 9)
