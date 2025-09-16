@@ -72,6 +72,8 @@ public class AlienBiomes {
         }
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.SAPPHIRE_ORE);
+            event.accept(ModBlocks.SMOOTH_STONY_CHONDRITE);
+            event.accept(ModBlocks.ROUGH_STONY_CHONDRITE);
         }
     }
 
