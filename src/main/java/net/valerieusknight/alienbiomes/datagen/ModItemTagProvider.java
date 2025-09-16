@@ -9,7 +9,7 @@ import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.valerieusknight.alienbiomes.AlienBiomes;
 import net.valerieusknight.alienbiomes.AlienBiomes;
 import net.valerieusknight.alienbiomes.item.ModItems;
-import net.valerieusknight.valsgemstones.util.ModTags;
+import net.valerieusknight.alienbiomes.util.ModTags;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;

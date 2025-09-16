@@ -1,16 +1,16 @@
-package net.valerieusknight.valsgemstones.datagen;
+package net.valerieusknight.alienbiomes.datagen;
 
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
-import net.valerieusknight.valsgemstones.ValsGemstones;
-import net.valerieusknight.valsgemstones.block.ModBlocks;
+import net.valerieusknight.alienbiomes.AlienBiomes;
+import net.valerieusknight.alienbiomes.block.ModBlocks;
 
 public class ModBlockStateProvider extends BlockStateProvider {
 
     public ModBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
-        super(output, ValsGemstones.MOD_ID, exFileHelper);
+        super(output, AlienBiomes.MOD_ID, exFileHelper);
     }
 
     @Override

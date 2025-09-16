@@ -7,9 +7,9 @@ import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.DatapackBuiltinEntriesProvider;
 import net.neoforged.neoforge.registries.NeoForgeRegistries;
 import net.valerieusknight.alienbiomes.AlienBiomes;
-import net.valerieusknight.valsgemstones.worldgen.ModBiomeModifiers;
+import net.valerieusknight.alienbiomes.worldgen.ModBiomeModifiers;
 import net.valerieusknight.alienbiomes.worldgen.ModConfiguredFeatures;
-import net.valerieusknight.valsgemstones.worldgen.ModPlacedFeatures;
+import net.valerieusknight.alienbiomes.worldgen.ModPlacedFeatures;
 
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;
