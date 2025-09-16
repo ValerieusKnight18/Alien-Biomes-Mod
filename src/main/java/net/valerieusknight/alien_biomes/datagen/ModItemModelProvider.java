@@ -1,4 +1,4 @@
-package net.valerieusknight.alienbiomes.datagen;
+package net.valerieusknight.alien_biomes.datagen;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -6,9 +6,8 @@ import net.neoforged.neoforge.client.model.generators.ItemModelBuilder;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredItem;
-import net.valerieusknight.alienbiomes.AlienBiomes;
-import net.valerieusknight.alienbiomes.AlienBiomes;
-import net.valerieusknight.alienbiomes.item.ModItems;
+import net.valerieusknight.alien_biomes.AlienBiomes;
+import net.valerieusknight.alien_biomes.item.ModItems;
 
 public class ModItemModelProvider extends ItemModelProvider {
 

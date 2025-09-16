@@ -1,4 +1,4 @@
-package net.valerieusknight.alienbiomes.datagen;
+package net.valerieusknight.alien_biomes.datagen;
 
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
@@ -14,8 +14,8 @@ import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
-import net.valerieusknight.alienbiomes.block.ModBlocks;
-import net.valerieusknight.alienbiomes.item.ModItems;
+import net.valerieusknight.alien_biomes.block.ModBlocks;
+import net.valerieusknight.alien_biomes.item.ModItems;
 
 
 import java.util.Set;

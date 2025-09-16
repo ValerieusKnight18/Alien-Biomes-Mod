@@ -1,8 +1,8 @@
-package net.valerieusknight.alienbiomes;
+package net.valerieusknight.alien_biomes;
 
 import net.minecraft.world.item.CreativeModeTabs;
-import net.valerieusknight.alienbiomes.block.ModBlocks;
-import net.valerieusknight.alienbiomes.item.ModItems;
+import net.valerieusknight.alien_biomes.block.ModBlocks;
+import net.valerieusknight.alien_biomes.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;

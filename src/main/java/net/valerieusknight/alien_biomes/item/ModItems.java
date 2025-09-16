@@ -1,10 +1,10 @@
-package net.valerieusknight.alienbiomes.item;
+package net.valerieusknight.alien_biomes.item;
 
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import net.valerieusknight.alienbiomes.AlienBiomes;
+import net.valerieusknight.alien_biomes.AlienBiomes;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(AlienBiomes.MOD_ID);

@@ -1,11 +1,11 @@
-package net.valerieusknight.alienbiomes.datagen;
+package net.valerieusknight.alien_biomes.datagen;
 
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
-import net.valerieusknight.alienbiomes.AlienBiomes;
-import net.valerieusknight.alienbiomes.block.ModBlocks;
+import net.valerieusknight.alien_biomes.AlienBiomes;
+import net.valerieusknight.alien_biomes.block.ModBlocks;
 
 public class ModBlockStateProvider extends BlockStateProvider {
 

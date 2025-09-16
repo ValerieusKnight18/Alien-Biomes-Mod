@@ -1,0 +1,12 @@
+{
+  "item.alien_biomes.sapphire": "Sapphire",
+  "item.alien_biomes.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.alien_biomes.sapphire_sword": "Sapphire Sword",
+  "item.alien_biomes.sapphire_shovel": "Sapphire Shovel",
+  "item.alien_biomes.sapphire_axe": "Sapphire Axe",
+  "item.alien_biomes.sapphire_hoe": "Sapphire Hoe",
+
+  "block.alien_biomes.sapphire_block": "Block of Sapphire",
+  "block.alien_biomes.sapphire_ore": "Sapphire Ore",
+  "block.alien_biomes.sapphire_glass": "Sapphire Glass"
+}

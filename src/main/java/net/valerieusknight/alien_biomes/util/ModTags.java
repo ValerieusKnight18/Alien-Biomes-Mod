@@ -1,10 +1,10 @@
-package net.valerieusknight.alienbiomes.util;
+package net.valerieusknight.alien_biomes.util;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.level.block.Block;
-import net.valerieusknight.alienbiomes.AlienBiomes;
+import net.valerieusknight.alien_biomes.AlienBiomes;
 
 public class ModTags {
     public static class Blocks {

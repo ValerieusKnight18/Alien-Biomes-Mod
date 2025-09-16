@@ -1,4 +1,4 @@
-package net.valerieusknight.alienbiomes.worldgen;
+package net.valerieusknight.alien_biomes.worldgen;
 
 import net.minecraft.core.HolderSet;
 import net.minecraft.core.registries.Registries;
@@ -10,7 +10,7 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 import net.neoforged.neoforge.common.world.BiomeModifier;
 import net.neoforged.neoforge.common.world.BiomeModifiers;
 import net.neoforged.neoforge.registries.NeoForgeRegistries;
-import net.valerieusknight.alienbiomes.AlienBiomes;
+import net.valerieusknight.alien_biomes.AlienBiomes;
 
 public class ModBiomeModifiers {
 

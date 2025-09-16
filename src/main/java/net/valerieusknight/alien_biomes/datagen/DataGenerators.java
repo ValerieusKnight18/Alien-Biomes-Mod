@@ -1,4 +1,4 @@
-package net.valerieusknight.alienbiomes.datagen;
+package net.valerieusknight.alien_biomes.datagen;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
@@ -10,7 +10,7 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
-import net.valerieusknight.alienbiomes.AlienBiomes;
+import net.valerieusknight.alien_biomes.AlienBiomes;
 
 
 import java.util.Collections;

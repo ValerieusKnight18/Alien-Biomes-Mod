@@ -1,4 +1,4 @@
-package net.valerieusknight.alienbiomes.datagen;
+package net.valerieusknight.alien_biomes.datagen;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.RegistrySetBuilder;
@@ -6,10 +6,10 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.DatapackBuiltinEntriesProvider;
 import net.neoforged.neoforge.registries.NeoForgeRegistries;
-import net.valerieusknight.alienbiomes.AlienBiomes;
-import net.valerieusknight.alienbiomes.worldgen.ModBiomeModifiers;
-import net.valerieusknight.alienbiomes.worldgen.ModConfiguredFeatures;
-import net.valerieusknight.alienbiomes.worldgen.ModPlacedFeatures;
+import net.valerieusknight.alien_biomes.AlienBiomes;
+import net.valerieusknight.alien_biomes.worldgen.ModBiomeModifiers;
+import net.valerieusknight.alien_biomes.worldgen.ModConfiguredFeatures;
+import net.valerieusknight.alien_biomes.worldgen.ModPlacedFeatures;
 
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;

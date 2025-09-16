@@ -1,4 +1,4 @@
-package net.valerieusknight.alienbiomes.worldgen;
+package net.valerieusknight.alien_biomes.worldgen;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
@@ -11,8 +11,8 @@ import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfigur
 import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
 import net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest;
 import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
-import net.valerieusknight.alienbiomes.AlienBiomes;
-import net.valerieusknight.alienbiomes.block.ModBlocks;
+import net.valerieusknight.alien_biomes.AlienBiomes;
+import net.valerieusknight.alien_biomes.block.ModBlocks;
 
 import java.util.List;
 

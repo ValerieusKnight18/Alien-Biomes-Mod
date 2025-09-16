@@ -1,4 +1,4 @@
-package net.valerieusknight.alienbiomes.datagen;
+package net.valerieusknight.alien_biomes.datagen;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -7,9 +7,8 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
-import net.valerieusknight.alienbiomes.block.ModBlocks;
-import net.valerieusknight.alienbiomes.item.ModItems;
-import net.valerieusknight.alienbiomes.util.ModTags;
+import net.valerieusknight.alien_biomes.block.ModBlocks;
+import net.valerieusknight.alien_biomes.item.ModItems;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;

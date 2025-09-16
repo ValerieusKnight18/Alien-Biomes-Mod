@@ -1,4 +1,4 @@
-package net.valerieusknight.alienbiomes;
+package net.valerieusknight.alien_biomes;
 
 import java.util.List;
 import java.util.Set;
