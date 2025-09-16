@@ -1,20 +1,21 @@
-package net.valerieusknight.valsgemstones.datagen;
+package net.valerieusknight.alienbiomes.datagen;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import net.valerieusknight.valsgemstones.ValsGemstones;
-import net.valerieusknight.valsgemstones.block.ModBlocks;
-import net.valerieusknight.valsgemstones.util.ModTags;
+import net.valerieusknight.alienbiomes.AlienBiomes;
+import net.valerieusknight.alienbiomes.block.ModBlocks;
+import net.valerieusknight.alienbiomes.util.ModTags;
+import org.checkerframework.checker.units.qual.A;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
 
 public class ModBlockTagProvider extends BlockTagsProvider {
     public ModBlockTagProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, @Nullable ExistingFileHelper existingFileHelper) {
-        super(output, lookupProvider, ValsGemstones.MOD_ID, existingFileHelper);
+        super(output, lookupProvider, AlienBiomes.MOD_ID, existingFileHelper);
     }
 
     @Override

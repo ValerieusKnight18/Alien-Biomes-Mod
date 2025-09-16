@@ -1,4 +1,4 @@
-package net.valerieusknight.valsgemstones.worldgen;
+package net.valerieusknight.alienbiomes.worldgen;
 
 import net.minecraft.world.level.levelgen.placement.*;
 

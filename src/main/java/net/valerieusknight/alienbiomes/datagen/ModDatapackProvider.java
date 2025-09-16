@@ -1,4 +1,4 @@
-package net.valerieusknight.valsgemstones.datagen;
+package net.valerieusknight.alienbiomes.datagen;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.RegistrySetBuilder;
@@ -6,9 +6,9 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.DatapackBuiltinEntriesProvider;
 import net.neoforged.neoforge.registries.NeoForgeRegistries;
-import net.valerieusknight.valsgemstones.ValsGemstones;
+import net.valerieusknight.alienbiomes.AlienBiomes;
 import net.valerieusknight.valsgemstones.worldgen.ModBiomeModifiers;
-import net.valerieusknight.valsgemstones.worldgen.ModConfiguredFeatures;
+import net.valerieusknight.alienbiomes.worldgen.ModConfiguredFeatures;
 import net.valerieusknight.valsgemstones.worldgen.ModPlacedFeatures;
 
 import java.util.Set;
@@ -21,6 +21,6 @@ public class ModDatapackProvider extends DatapackBuiltinEntriesProvider {
             .add(NeoForgeRegistries.Keys.BIOME_MODIFIERS, ModBiomeModifiers::bootstrap);
 
     public ModDatapackProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> registries) {
-        super(output, registries, BUILDER, Set.of(ValsGemstones.MOD_ID));
+        super(output, registries, BUILDER, Set.of(AlienBiomes.MOD_ID));
     }
 }

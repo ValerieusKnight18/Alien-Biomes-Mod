@@ -1,4 +1,4 @@
-package net.valerieusknight.valsgemstones.datagen;
+package net.valerieusknight.alienbiomes.datagen;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -7,8 +7,8 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
-import net.valerieusknight.valsgemstones.block.ModBlocks;
-import net.valerieusknight.valsgemstones.item.ModItems;
+import net.valerieusknight.alienbiomes.block.ModBlocks;
+import net.valerieusknight.alienbiomes.item.ModItems;
 import net.valerieusknight.valsgemstones.util.ModTags;
 
 import java.util.List;

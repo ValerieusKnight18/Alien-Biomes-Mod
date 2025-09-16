@@ -1,4 +1,4 @@
-package net.valerieusknight.valsgemstones.worldgen;
+package net.valerieusknight.alienbiomes.worldgen;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
@@ -11,8 +11,8 @@ import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfigur
 import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
 import net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest;
 import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
-import net.valerieusknight.valsgemstones.ValsGemstones;
-import net.valerieusknight.valsgemstones.block.ModBlocks;
+import net.valerieusknight.alienbiomes.AlienBiomes;
+import net.valerieusknight.alienbiomes.block.ModBlocks;
 
 import java.util.List;
 
@@ -34,7 +34,7 @@ public class ModConfiguredFeatures {
     }
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {
-        return ResourceKey.create(Registries.CONFIGURED_FEATURE, ResourceLocation.fromNamespaceAndPath(ValsGemstones.MOD_ID, name));
+        return ResourceKey.create(Registries.CONFIGURED_FEATURE, ResourceLocation.fromNamespaceAndPath(AlienBiomes.MOD_ID, name));
     }
 
     private static <FC extends FeatureConfiguration ,F extends Feature<FC>> void register(BootstrapContext<ConfiguredFeature<?, ?>> context, ResourceKey<ConfiguredFeature<?, ?>> key, F feature, FC configuration) {

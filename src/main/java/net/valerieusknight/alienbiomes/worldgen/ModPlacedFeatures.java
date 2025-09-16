@@ -1,4 +1,4 @@
-package net.valerieusknight.valsgemstones.worldgen;
+package net.valerieusknight.alienbiomes.worldgen;
 
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.Registries;
@@ -12,7 +12,7 @@ import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfigur
 import net.minecraft.world.level.levelgen.placement.HeightRangePlacement;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.minecraft.world.level.levelgen.placement.PlacementModifier;
-import net.valerieusknight.valsgemstones.ValsGemstones;
+import net.valerieusknight.alienbiomes.AlienBiomes;
 
 import java.util.List;
 
@@ -24,7 +24,7 @@ public class ModPlacedFeatures {
         register(context, SAPPHIRE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_SAPPHIRE_ORE_KEY), ModOrePlacement.commonOrePlacement(16, HeightRangePlacement.triangle(VerticalAnchor.absolute(5), VerticalAnchor.absolute(32))));
     }
     public static ResourceKey<PlacedFeature> registerKey(String name) {
-        return ResourceKey.create(Registries.PLACED_FEATURE, ResourceLocation.fromNamespaceAndPath(ValsGemstones.MOD_ID, name));
+        return ResourceKey.create(Registries.PLACED_FEATURE, ResourceLocation.fromNamespaceAndPath(AlienBiomes.MOD_ID, name));
     }
 
     private static void register(BootstrapContext<PlacedFeature> context, ResourceKey<PlacedFeature> key, Holder<ConfiguredFeature<?, ?>> configuration, List<PlacementModifier> modifiers) {

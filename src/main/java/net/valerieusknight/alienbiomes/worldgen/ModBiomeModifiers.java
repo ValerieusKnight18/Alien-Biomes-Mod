@@ -1,4 +1,4 @@
-package net.valerieusknight.valsgemstones.worldgen;
+package net.valerieusknight.alienbiomes.worldgen;
 
 import net.minecraft.core.HolderSet;
 import net.minecraft.core.registries.Registries;
@@ -10,7 +10,7 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 import net.neoforged.neoforge.common.world.BiomeModifier;
 import net.neoforged.neoforge.common.world.BiomeModifiers;
 import net.neoforged.neoforge.registries.NeoForgeRegistries;
-import net.valerieusknight.valsgemstones.ValsGemstones;
+import net.valerieusknight.alienbiomes.AlienBiomes;
 
 public class ModBiomeModifiers {
 
@@ -26,7 +26,7 @@ public class ModBiomeModifiers {
     }
 
     public static ResourceKey<BiomeModifier> registerKey(String name) {
-        return ResourceKey.create(NeoForgeRegistries.Keys.BIOME_MODIFIERS, ResourceLocation.fromNamespaceAndPath(ValsGemstones.MOD_ID, name));
+        return ResourceKey.create(NeoForgeRegistries.Keys.BIOME_MODIFIERS, ResourceLocation.fromNamespaceAndPath(AlienBiomes.MOD_ID, name));
     }
 
 }
