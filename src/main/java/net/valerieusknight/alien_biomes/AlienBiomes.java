@@ -74,6 +74,7 @@ public class AlienBiomes {
             event.accept(ModBlocks.SAPPHIRE_ORE);
             event.accept(ModBlocks.SMOOTH_STONY_CHONDRITE);
             event.accept(ModBlocks.ROUGH_STONY_CHONDRITE);
+            event.accept(ModBlocks.CARBONACEOUS_CHONDRITE);
         }
     }
 

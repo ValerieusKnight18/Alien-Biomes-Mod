@@ -4,6 +4,7 @@ import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.loot.BlockLootSubProvider;
+import net.minecraft.world.entity.Mob;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.enchantment.Enchantment;
@@ -14,6 +15,7 @@ import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
+import net.neoforged.fml.common.Mod;
 import net.valerieusknight.alien_biomes.block.ModBlocks;
 import net.valerieusknight.alien_biomes.item.ModItems;
 
@@ -29,6 +31,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     protected void generate() {
         dropSelf(ModBlocks.SAPPHIRE_BLOCK.get());
         dropSelf(ModBlocks.SAPPHIRE_GLASS.get());
+        dropSelf(ModBlocks.SMOOTH_STONY_CHONDRITE.get());
+        dropSelf(ModBlocks.ROUGH_STONY_CHONDRITE.get());
+        dropSelf(ModBlocks.CARBONACEOUS_CHONDRITE.get());
 
         add(ModBlocks.SAPPHIRE_ORE.get(), block -> createOreDrop(ModBlocks.SAPPHIRE_ORE.get(), ModItems.SAPPHIRE.get()));
     }
