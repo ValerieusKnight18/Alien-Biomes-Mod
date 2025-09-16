@@ -20,7 +20,7 @@ public class ModBlocks {
     public static final DeferredBlock<Block> SAPPHIRE_BLOCK = registerBlock("sapphire_block", () -> new Block(BlockBehaviour.Properties.of() .strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
     public static final DeferredBlock<Block> SMOOTH_STONY_CHONDRITE = registerBlock("smooth_stony_chondrite", () -> new Block(BlockBehaviour.Properties.of() .strength(3f).requiresCorrectToolForDrops().sound(SoundType.TUFF)));
     public static final DeferredBlock<Block> ROUGH_STONY_CHONDRITE = registerBlock("rough_stony_chondrite", () -> new Block(BlockBehaviour.Properties.of() .strength(3f).requiresCorrectToolForDrops().sound(SoundType.TUFF)));
-    public static final DeferredBlock<Block> ROUGH_STONY_CHONDRITE = registerBlock("carbonaceous_chondrite", () -> new Block(BlockBehaviour.Properties.of() .strength(3f).requiresCorrectToolForDrops().sound(SoundType.TUFF)));
+    public static final DeferredBlock<Block> CARBONACEOUS_CHONDRITE = registerBlock("carbonaceous_chondrite", () -> new Block(BlockBehaviour.Properties.of() .strength(3f).requiresCorrectToolForDrops().sound(SoundType.TUFF)));
     public static final DeferredBlock<Block> SAPPHIRE_GLASS = registerBlock("sapphire_glass", () -> new TransparentBlock(
             BlockBehaviour.Properties.of()
                     .instrument(NoteBlockInstrument.HAT)
