@@ -1,13 +1,13 @@
-package net.valerieusknight.valsgemstones.item;
+package net.valerieusknight.alienbiomes.item;
 
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import net.valerieusknight.valsgemstones.ValsGemstones;
+import net.valerieusknight.alienbiomes.AlienBiomes;
 
 public class ModItems {
-    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ValsGemstones.MOD_ID);
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(AlienBiomes.MOD_ID);
 
     //create the sapphire item
     public static final DeferredItem<Item> SAPPHIRE = ITEMS.register("sapphire",() -> new Item(new Item.Properties()));

@@ -1,4 +1,4 @@
-package net.valerieusknight.valsgemstones.block;
+package net.valerieusknight.alienbiomes.block;
 
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -10,13 +10,14 @@ import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import net.valerieusknight.valsgemstones.ValsGemstones;
-import net.valerieusknight.valsgemstones.item.ModItems;
+import net.valerieusknight.alienbiomes.AlienBiomes;
+import net.valerieusknight.alienbiomes.AlienBiomes;
+import net.valerieusknight.alienbiomes.item.ModItems;
 
 import java.util.function.Supplier;
 
 public class ModBlocks {
-    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(ValsGemstones.MOD_ID);
+    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(AlienBiomes.MOD_ID);
 
     public static final DeferredBlock<Block> SAPPHIRE_BLOCK = registerBlock("sapphire_block", () -> new Block(BlockBehaviour.Properties.of() .strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
     public static final DeferredBlock<Block> SAPPHIRE_GLASS = registerBlock("sapphire_glass", () -> new TransparentBlock(
