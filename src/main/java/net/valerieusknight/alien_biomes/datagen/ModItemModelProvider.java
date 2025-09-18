@@ -18,6 +18,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         basicItem(ModItems.SAPPHIRE.get());
+        basicItem(ModItems.PERIDOT.get());
         handheldItem(ModItems.SAPPHIRE_PICKAXE.get());
         handheldItem(ModItems.SAPPHIRE_SWORD.get());
         handheldItem(ModItems.SAPPHIRE_SHOVEL.get());

@@ -23,9 +23,9 @@ public class ModItems {
     public static final DeferredItem<HoeItem> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe",() -> new HoeItem(ModToolTiers.SAPPHIRE, new Item.Properties()
             .attributes(HoeItem.createAttributes(ModToolTiers.SAPPHIRE, 0, -2.8f))));
     //peridot gem item
-    public static void final DeferredItem<Item> PERIDOT = ITEMS.register("peridot", () -> new Item(new Item.Properties()));
+    public static  final DeferredItem<Item> PERIDOT = ITEMS.register("peridot", () -> new Item(new Item.Properties()));
     //olivine gem item
-    public static void final DeferredItem<Item> OLIVINE = ITEMS.register("olivine", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> OLIVINE = ITEMS.register("olivine", () -> new Item(new Item.Properties()));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

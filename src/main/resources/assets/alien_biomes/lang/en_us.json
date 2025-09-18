@@ -9,7 +9,11 @@
   "block.alien_biomes.sapphire_block": "Block of Sapphire",
   "block.alien_biomes.sapphire_ore": "Sapphire Ore",
   "block.alien_biomes.sapphire_glass": "Sapphire Glass",
+
   "block.alien_biomes.smooth_stony_chondrite": "Smooth Stony Chondrite",
   "block.alien_biomes.rough_stony_chondrite": "Rough Stony Chondrite",
-  "block.alien_biomes.carbonaceous_chondrite": "Carbonaceous Chondrite"
+  "block.alien_biomes.carbonaceous_chondrite": "Carbonaceous Chondrite",
+
+  "block.alien_biomes.peridot": "Peridot",
+  "block.alien_biomes.olivine": "Olivine"
 }
